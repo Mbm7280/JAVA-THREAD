@@ -1,7 +1,7 @@
 package com.ehco.p1;
 
 /**
- * Thread004
+ * Thread005
  *  线程停止
  *
  */
