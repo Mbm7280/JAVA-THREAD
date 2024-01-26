@@ -1,4 +1,4 @@
-package com.echo.thread.lock.thread_4_1_14.project_2_awaitUninterruptiblyTest_2;
+package com.echo.thread.lock.case17;
 
 public class MyThread extends Thread {
 

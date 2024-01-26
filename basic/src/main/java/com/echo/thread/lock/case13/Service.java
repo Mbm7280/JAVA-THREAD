@@ -1,4 +1,4 @@
-package com.echo.thread.lock.project_1_lockMethodTest3.test1;
+package com.echo.thread.lock.case13;
 
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -13,12 +13,12 @@ public class Service {
 
 	public void serviceMethod() {
 		try {
+			System.out.println(lock.isLocked());
 			lock.lock();
-			System.out.println("公平锁情况：" + lock.isFair());
+			System.out.println(lock.isLocked());
 		} finally {
 			lock.unlock();
 		}
 	}
 
 }
-

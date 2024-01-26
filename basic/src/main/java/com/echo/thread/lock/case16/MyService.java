@@ -1,4 +1,4 @@
-package com.echo.thread.lock.thread_4_1_13.project_4_tryLock_param;
+package com.echo.thread.lock.case16;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;

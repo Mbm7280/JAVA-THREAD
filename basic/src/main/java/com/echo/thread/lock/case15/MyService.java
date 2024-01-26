@@ -1,4 +1,4 @@
-package com.echo.thread.lock.thread_4_1_13.project_3_tryLockTest;
+package com.echo.thread.lock.case15;
 
 import java.util.concurrent.locks.ReentrantLock;
 

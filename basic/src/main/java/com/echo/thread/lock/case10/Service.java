@@ -1,4 +1,4 @@
-package com.echo.thread.lock.project_1_lockMethodTest2.test2;
+package com.echo.thread.lock.case10;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,5 +1,4 @@
-package com.echo.thread.lock.project_1_lockMethodTest3.test3;
-
+package com.echo.thread.lock.case12;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Service {
@@ -13,9 +12,9 @@ public class Service {
 
 	public void serviceMethod() {
 		try {
-			System.out.println(lock.isLocked());
+			System.out.println(lock.isHeldByCurrentThread());
 			lock.lock();
-			System.out.println(lock.isLocked());
+			System.out.println(lock.isHeldByCurrentThread());
 		} finally {
 			lock.unlock();
 		}
